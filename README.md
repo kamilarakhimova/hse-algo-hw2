@@ -19,7 +19,7 @@
 ---
 
 Где когда что?:
-- [Вуаля!](https://github.com/kamilarakhimova/hse-algo-hw2/blob/main/Условие%20КДЗ2.pdf) - тут описание условия задания.
+- [Вуаля!](https://github.com/kamilarakhimova/hse-algo-hw2/blob/main/%D0%A3%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5%20%D0%9A%D0%94%D0%97%20%E2%84%962.pdf) - тут описание условия задания.
 
 
 
