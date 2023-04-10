@@ -1,10 +1,4 @@
-#include <iostream>
-#include <string>
-
-using std::cin;
-using std::cout;
-using std::ios_base;
-using std::string;
+#include <algorithms.h>
 
 // реализация наивного алгоритма (с использованием простого посимвольного сравнения) [1]
 int naive(string& pattern, string& text) {
