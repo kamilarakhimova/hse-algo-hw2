@@ -47,7 +47,7 @@ int kmp1(string& pattern, string& text) {
             k = br[k - 1];
         }
         if (pattern[k] == text[i]) {
-            k += 1;
+            ++k;
         }
         if (k == m) {
             answer = i - m + 1;
@@ -97,7 +97,7 @@ int kmp2(string& pattern, string& text) {
             k = brs[k - 1];
         }
         if (pattern[k] == text[i]) {
-            k += 1;
+            ++k;
         }
         if (k == m) {
             answer = i - m + 1;
