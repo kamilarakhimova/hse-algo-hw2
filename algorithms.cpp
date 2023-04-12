@@ -1,4 +1,4 @@
-#include <algorithms.h>
+#include "algorithms.h"
 
 // реализация наивного алгоритма (с использованием простого посимвольного сравнения) [1.1]
 int naive(string& pattern, string& text) {
