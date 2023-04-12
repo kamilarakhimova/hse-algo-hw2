@@ -44,4 +44,4 @@
 
 - Все графики можно найти в [Graphs](https://github.com/kamilarakhimova/hse-algo-hw2/blob/main/Graphs).
 
-- И [та-дамс!](https://github.com/kamilarakhimova/hse-algo-hw2/blob/main/Отчёт.md) - здесь лежит ещё свеженький отчёт. Приятного изучения!
+- И последнее: [та-дааамс!](https://github.com/kamilarakhimova/hse-algo-hw2/blob/main/Отчёт.md) - здесь лежит ещё свеженький отчёт. Приятного изучения!
