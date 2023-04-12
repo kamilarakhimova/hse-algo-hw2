@@ -6,9 +6,6 @@
 #include <vector>
 #include <chrono>
 #include "algorithms.h"
-// здесь вставить сами функции в компилятор 
-// и получить графики отсюда. сравню потом где лучше:
-// в repl.it или тут. нужны более пологие...
 
 using std::cin;
 using std::cout;
@@ -74,6 +71,7 @@ int64_t midTime(string& pattern, string& text, int choice) {
     return mtime;
 }
 
+// функция, создающая необходимые таблицы ("csv")
 void createTables(string& text, int size, const string& name) {
     std::ofstream myfile;
     string folder = "TablesForGraphs/";
@@ -110,13 +108,13 @@ int main() {
     createTables(text_bin_first, size1, "Bin 10000 ");
     cout << "Processed 25%...\n";
     string text_bin_second = generateText(bin_alphabet, size2);
-    createTables(text_bin_first, size1, "Bin 100000 ");
+    createTables(text_bin_second, size2, "Bin 100000 ");
     cout << "Processed 50%...\n";
     string text_dnk_first = generateText(dnk_alphabet, size1);
-    createTables(text_bin_first, size1, "Dnk 10000 ");
+    createTables(text_dnk_first, size1, "Dnk 10000 ");
     cout << "Processed 75%...\n";
     string text_dnk_second = generateText(dnk_alphabet, size2);
-    createTables(text_bin_first, size1, "Dnk 100000 ");
+    createTables(text_dnk_second, size2, "Dnk 100000 ");
     cout << "Processed 100%!\n";
     cout << "Well done. The program ends its work.\n";
     return 0;
