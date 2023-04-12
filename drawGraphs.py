@@ -3,8 +3,8 @@ import csv
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib import rcParams
-rcParams['figure.figsize'] = 8, 8
-rcParams['font.size'] = '16'
+rcParams['figure.figsize'] = 6, 6
+rcParams['font.size'] = '8'
 
 files = []
 for file in os.listdir(r'TablesForGraphs'):
